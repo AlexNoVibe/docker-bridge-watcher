@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "docker-bridge": {
+      "command": "uv",
+      "args": [
+        "run",
+        "--python",
+        "3.12",
+        "docker_switch/watcher/docker_bridge_mcp.py"
+      ]
+    }
+  }
+}

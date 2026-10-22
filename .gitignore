@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Runtime bridge status and logs
+**/status/*.log
+**/status/*.txt
+!**/status/.gitkeep
+**/logs/*.log
+!**/logs/.gitkeep
+**/commands/execute.txt
+
+# Generated agent configs in root
+.zcode.json
+.claude.json
+opencode.json
+.mcp.json
+
+# Windows & OS metadata
+Thumbs.db
+Desktop.ini
+.DS_Store
