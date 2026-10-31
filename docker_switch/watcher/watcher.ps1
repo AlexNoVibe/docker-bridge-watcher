@@ -340,7 +340,7 @@ function Invoke-ComposeWithTimeout {
         foreach ($l in $jobOut) {
             $s = "$l"
             if ($s -like '###EXITCODE:*') { 
-                try { $exitCode = [int]$s.Substring(11) } catch {} 
+                try { $exitCode = [int]$s.Substring(12) } catch {} 
             } else { 
                 $lines.Add($s) 
             }
